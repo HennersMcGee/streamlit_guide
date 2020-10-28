@@ -20,6 +20,8 @@ def env_var_exist(var):
         st.text(f"The variable {var} has a value: {value}")
     else:
         st.text("Doesn't exist")
+        st.text(os.environ)
+        
 
 
 #%% Testing

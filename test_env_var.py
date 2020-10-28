@@ -9,16 +9,17 @@
 '''
 
 import os
+import streamlit as st
 
 def env_var_exist(var):
     
     value = os.environ.get(var)
     
     if value:
-        print("Does exist")
-        print(f"The variable {var} has a value: {value}")
+        st.text("Does exist")
+        st.text(f"The variable {var} has a value: {value}")
     else:
-        print("Doesn't exist")
+        st.text("Doesn't exist")
 
 
 #%% Testing

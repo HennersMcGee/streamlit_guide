@@ -5,7 +5,7 @@ from test_env_var import env_var_exist
 
 def main():
     df = load_data()
-    page = st.sidebar.selectbox("Choose a page", ["Homepage", "Env Var"])
+    page = st.sidebar.selectbox("Choose a page", ["Homepage", "Exploration", "Env Var"])
 
     if page == "Homepage":
         st.header("This is your data explorer.")

@@ -39,7 +39,6 @@ if os.environ.get('test_var1'):
 else:
     print("Doesn't exist")
 
-
 os.environ.pop('test_var1')
 
 env_var_exist('no_exist')

@@ -11,7 +11,7 @@ from simple_functions import add_one
 
 def test_for_int():
     assert isinstance(add_one(1), int)
-    assert add_one(1) == 3, "One plus one is not three!"
+    assert add_one(1) == 2, "One plus one is not two!"
     # Check it errors with a string
     with pytest.raises(TypeError):
         add_one("1")

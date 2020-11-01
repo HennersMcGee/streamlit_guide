@@ -1,7 +1,7 @@
 from vega_datasets import data
 import streamlit as st
 import altair as alt
-from test_env_var import env_var_exist
+from env_var_fn import env_var_exist
 
 def main():
     df = load_data()
